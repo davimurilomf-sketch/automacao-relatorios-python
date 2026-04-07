@@ -12,12 +12,12 @@ data_pasta = data_base.strftime("%d.%m")   # 23.03.2026
 data_arquivo = data_base.strftime("%Y%m%d")   # 23032026
 
 # ===== CRIAR PASTA =====
-pasta_base = r"Z:\Davi\Via varejo\Tempos\Arquivar\ABRIL"
+pasta_base = r"C:\exemplo\pasta"
 pasta_destino = os.path.join(pasta_base, data_pasta) 
 os.makedirs(pasta_destino, exist_ok=True)
 
 # ===== PASTA DE ORIGEM =====
-pasta_origem = r"Z:\Davi\TEMPOS 1"
+pasta_origem = r"C:\exemplo\pasta1"
 
 # ===== PEGAR ARQUIVO =====
 arquivos = os.listdir(pasta_origem)
@@ -36,7 +36,7 @@ origem = os.path.join(pasta_origem, arquivo)
 
 # =====  NOVO NOME =====
 extensao = os.path.splitext(arquivo)[1]
-novo_nome = f"Arquivo_Tempos_{data_arquivo}{extensao}"
+novo_nome = f"Arquivo_exemplo_{data_arquivo}{extensao}"
 
 # ===== DESTINO FINAL =====
 destino = os.path.join(pasta_destino, novo_nome)
@@ -64,7 +64,7 @@ sftp = paramiko.SFTPClient.from_transport(transport)
 print(f"Conectado: {host}")
 
 # ===== CAMINHO REMOTO =====
-pasta_remota = "/ARQUIVO_DE_TEMPOS/2024/09.Setembro"
+pasta_remota = "/ARQUIVO_DE_EXEMPLO"
 caminho_remoto = f"{pasta_remota}/{novo_nome}"
 
 # ===== CRIAR PASTA NO SFTP =====
