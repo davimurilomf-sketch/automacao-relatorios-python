@@ -5,20 +5,20 @@ from datetime import timedelta
 # CONFIGURAÇÃO DE CADA RELATÓRIO
 arquivos = [
     {
-        "caminho": r"X:Indicadores operacionais\Relatório de Preventivo - Cruzeiro.xlsx",
+        "caminho": r"data/relatorio1.xlsx",
         "aba": "RESUMO"
     },
     {
-        "caminho": r"X:Indicadores operacionais\Relatório de Preventivo - Ipanema.xlsx",
+        "caminho": r"data/relatorio2.xlsx",
         "aba": "RESUMO"
     },
     {
-        "caminho": r"X:Indicadores operacionais\Relatório de Preventivo - Via Varejo.xlsx",
+        "caminho": r"data/relatorio3.xlsx",
         "aba": "RESUMO"
 
     },
     {
-        "caminho": r"X:Indicadores operacionais\SUSP - VIA VAREJO.xlsb",
+        "caminho": r"data/relatorio4.xlsx",
         "aba": "RESUMO"
 
     }
