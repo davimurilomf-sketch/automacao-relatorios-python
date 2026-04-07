@@ -5,8 +5,8 @@ from datetime import timedelta
 # CONFIGURAÇÃO DE CADA RELATÓRIO
 arquivos = [
     {
-        "caminho": r"X:\Projeção de custos Telefonia e SMS\Telecom\2026\04.Telefonia.xlsx",
-        "aba": ["RESUMO GERAL","POR CARTEIRA"]
+        "caminho": r"data/relatorio.xlsx",
+        "aba": ["PAGINA2","PAGINA1"
     },
 
 ]
