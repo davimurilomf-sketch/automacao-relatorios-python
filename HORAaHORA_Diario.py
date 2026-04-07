@@ -5,21 +5,21 @@ from datetime import timedelta
 # CONFIGURAÇÃO DE CADA RELATÓRIO
 arquivos = [
     {
-        "caminho": r"X:\Hora a Hora\HORA HORA CLIENTE (VIA+CSED+IPA).xlsx",
-        "aba": ["HORAxHORA Via Varejo","HORAxHORA Cruzeiro","HORAxHORA Ipanema"]
+        "caminho": r"data/relatorio1.xlsx",
+        "aba": ["pagina1","pagina2","pagina3"]
     },
     {
-        "caminho": r"X:\Hora a Hora\HORA X HORA COLCHÃO GRUPO B.xlsx",
-        "aba": "Base"
+        "caminho": r"data/relatorio2.xlsx",
+        "aba": "pagina1"
     },
     {
-        "caminho": r"X:\Hora a Hora\HORA X HORA COLCHÃO RECOVERY.xlsx",
-        "aba": "BASE"
+        "caminho": r"data/relatorio3.xlsx",
+        "aba": "pagina1"
 
     },
     {
-        "caminho": r"X:\Hora a Hora\HORA x HORA OPERACIONAL (VIA+CSED+IPA).xlsb",
-        "aba": ["COMPARATIVO DIA","COMPARATIVO HORA"]
+        "caminho": r"data/relatorio4.xlsx",
+        "aba": ["pagina1","pagina2"]
 
     }
 ]
