@@ -10,18 +10,18 @@ from datetime import timedelta
 # CONFIGURAÇÃO DE CADA RELATÓRIO
 arquivos = [
     {
-        "caminho": r"X:\Dailys\Daily Ipanema.xlsx",
-        "aba": "Esteira",
+        "caminho": r"data/relatorio.xlsx",
+        "aba": "Pagina",
         "celula": "I8"
     },
     {
-        "caminho": r"X:\Dailys\Daily Cruzeiro do Sul.xlsx",
-        "aba": "Esteira",
+        "caminho": r"data/relatorio.xlsx",
+        "aba": "Pagina",
         "celula": "H5"
     },
     {
-        "caminho": r"X:\Dailys\Daily Casas Bahia.xlsx",
-        "aba": "Esteira Consolidada",
+        "caminho": r"data/relatorio.xlsx",
+        "aba": "Pagina",
         "celula": "H5"
     }
 ]
